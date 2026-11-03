@@ -5,20 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug executable 'rust-seed'",
+            "name": "Debug executable 'clippy-check-test'",
             "type": "lldb",
             "request": "launch",
             "cargo": {
-                "args": ["run", "--bin=rust-seed"]
+                "args": ["run", "--bin=clippy-check-test"]
             },
             "args": []
         },
         {
-            "name": "Debug unit tests in executable 'rust-seed'",
+            "name": "Debug unit tests in executable 'clippy-check-test'",
             "type": "lldb",
             "request": "launch",
             "cargo": {
-                "args": ["test", "--no-run", "--bin=rust-seed"]
+                "args": ["test", "--no-run", "--bin=clippy-check-test"]
             },
             "args": []
         },

@@ -2,8 +2,8 @@
 # https://git-cliff.org/docs/configuration
 
 [remote.github]
-owner = "kristof-mattei"
-repo = "rust-seed"
+owner = "actions-rs-plus"
+repo = "clippy-check-test"
 
 [changelog]
 # A Tera template to be rendered as the changelog's header.
@@ -75,7 +75,7 @@ render_always = true
 # An array of regex based postprocessors to modify the changelog.
 postprocessors = [
     # Replace the placeholder <REPO> with a URL.
-    { pattern = '<REPO>', replace = "https://github.com/kristof-mattei/rust-seed" },
+    { pattern = '<REPO>', replace = "https://github.com/actions-rs-plus/clippy-check-test" },
 ]
 # render body even when there are no releases to process
 # render_always = true

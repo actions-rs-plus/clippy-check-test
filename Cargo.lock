@@ -55,6 +55,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4e7648175b45a9a48536d676f68d918270699102aa8dab5496df06904c914600"
 
 [[package]]
+name = "clippy-check-test"
+version = "0.0.0-development"
+dependencies = [
+ "color-eyre",
+ "mimalloc",
+ "pretty_assertions",
+]
+
+[[package]]
 name = "color-eyre"
 version = "0.6.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -196,15 +205,6 @@ checksum = "3ae130e2f271fbc2ac3a40fb1d07180839cdbbe443c7a27e1e3c13c5cac0116d"
 dependencies = [
  "diff",
  "yansi",
-]
-
-[[package]]
-name = "rust-seed"
-version = "0.0.0-development"
-dependencies = [
- "color-eyre",
- "mimalloc",
- "pretty_assertions",
 ]
 
 [[package]]

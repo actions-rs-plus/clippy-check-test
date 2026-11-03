@@ -11,7 +11,7 @@ description = "Rust seed application"
 license = "MIT"
 categories = ["starter", "seed"]
 keywords = ["integrity", "seed", "starter", "docker", "release"]
-repository = "https://github.com/kristof-mattei/rust-seed"
+repository = "https://github.com/actions-rs-plus/clippy-check-test"
 include = ["crates/**", "/LICENSE", "/LICENSE-*"]
 
 [workspace.lints.clippy]

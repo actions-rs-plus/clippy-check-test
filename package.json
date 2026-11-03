@@ -1,5 +1,5 @@
 {
-    "name": "rust-seed",
+    "name": "clippy-check-test",
     "private": true,
     "type": "module",
     "scripts": {
